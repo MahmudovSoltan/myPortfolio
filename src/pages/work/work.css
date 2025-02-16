@@ -1,0 +1,65 @@
+.work_main_container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.work_sectons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 350px;
+  margin-bottom: 3rem;
+}
+.left_main_container {
+  width: 50%;
+  height: 455px;
+  background-color: rgb(55 65 81);
+  padding: 3rem;
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+}
+
+.left_main_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease-in-out;
+}
+.left_main_container img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.work_right_container {
+  width: 50%;
+  height: 455px;
+  padding: 3rem;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+  background-color: #222936;
+}
+.project_title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: rgb(249 250 251);
+}
+.project_desc {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgb(249 250 251);
+}
+.project_tecnologys {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  gap: 10px;
+}
+.project_tecnology {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  background-color: rgb(55 65 81);
+  border-radius: 0.75rem;
+  color: rgb(249 250 251);
+}

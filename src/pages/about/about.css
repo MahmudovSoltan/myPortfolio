@@ -1,0 +1,52 @@
+.main_about {
+  background-color: rgba(17 24 39);
+  padding: 50px 0;
+  margin-top: 80px;
+}
+.about_Left {
+  width: 50%;
+}
+.about_Left img {
+  max-width: 380px;
+  height: auto;
+  border-radius: 4px;
+}
+.about_tile {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.about_tile h2 {
+  display: inline;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: rgba(55 65 81);
+  border-radius: 0.75rem;
+  color: rgb(249 250 251);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.about_sections {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.about_right_container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+}
+.about_right_title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(249 250 251);
+}
+.about_right_container p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(249 250 251);
+}

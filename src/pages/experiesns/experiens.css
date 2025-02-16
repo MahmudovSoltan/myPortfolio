@@ -1,0 +1,28 @@
+.main_experiens_div {
+    background-color: rgba(17 24 39);
+    padding: 50px 30px;
+  }
+  .main_card {
+    width: 80%;
+    tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    background-color: rgba(31 41 55);
+    margin: 20px auto;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(249 250 251);
+  }
+  .role_title {
+    margin: 0 0 20px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .work_desc {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  

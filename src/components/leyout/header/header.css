@@ -1,0 +1,21 @@
+header {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding: 1rem;
+}
+.header_cotainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header_logo {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color:  rgb(249 250 251);
+  font-weight: 700;
+}

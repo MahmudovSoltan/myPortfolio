@@ -1,0 +1,6 @@
+.home_right_image img{
+    width: 280px;
+    height: 380px;
+    object-fit: fill;
+    border-radius: 4px;
+}

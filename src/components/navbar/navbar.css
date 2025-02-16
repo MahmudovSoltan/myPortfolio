@@ -1,0 +1,23 @@
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.navbar_list a{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: rgb(210 213 218);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+.navbar_list a:hover{
+    color: #fff;
+}
+.line{
+    width: 1.5px;
+    height: 1.5rem;
+    background-color: rgb(89, 89, 90);
+}
