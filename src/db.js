@@ -10,7 +10,7 @@
  export const data = [
     {
         "name":"E-Commers Website",
-        "description":"This project demonstrates my ability to work with APIs and create dynamic, data-driven web applications. Built using React, it fetches and displays data from an external API, showcasing my skills in handling asynchronous operations, state management, and responsive design. The project features a clean and intuitive user interface, making it easy for users to interact with the data. It highlights my proficiency in modern frontend development and my capability to build efficient and scalable web applications.",
+        "description":"This project demonstrates my ability to work with APIs and create dynamic, data-driven web applications. Built using React, it fetches and displays data from an external API, showcasing my skills in handling asynchronous operations, state management, and responsive design.",
         "image":image5,
         "tecnolgy":["React","React-router-dom","React Bootstrap","Redux-Toolkit","RTK Query","Responsive"],
         "link":"https://react-api-gold-two.vercel.app/"

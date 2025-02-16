@@ -6,7 +6,7 @@ nav ul{
 }
 .navbar_list a{
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     color: rgb(210 213 218);
     transition-property: all;

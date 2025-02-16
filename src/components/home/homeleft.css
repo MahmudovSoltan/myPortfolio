@@ -1,8 +1,36 @@
+.home_left_container{
+  max-width: 65%;
+}
+
+
+
 .about_title {
-  line-height: 72px;
-  font-size: 3rem;
-  letter-spacing: -0.02em;
+  font-size: 3.75rem;
+  font-weight: bold;
   color: rgb(249 250 251);
+  display: inline-block;
+  margin: 0 0 20px;
+}
+
+.wave-hand {
+  display: inline-block;
+  animation: wave-hand 1.5s infinite; /* Sallanma animasiyası */
+  transform-origin: 70% 100%; /* Biləyin sabit qalması üçün transform mərkəzini təyin edirik */
+}
+
+@keyframes wave-hand {
+  0%, 100% {
+    transform: rotate(0deg); /* Başlanğıc və bitiş vəziyyəti */
+  }
+  25% {
+    transform: rotate(-20deg); /* Sola əyilmə */
+  }
+  50% {
+    transform: rotate(0deg); /* Orta vəziyyət */
+  }
+  75% {
+    transform: rotate(-20deg); /* Yenidən sola əyilmə */
+  }
 }
 .about_desc {
   color: rgb(249 250 251);
