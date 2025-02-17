@@ -8,7 +8,7 @@ const HomeLeft = () => {
   return (
     <div className="home_left_container">
       <h1 className="about_title">
-        Hi, I'm Mahmudov Soltan <span className="wave-hand">👋</span>
+        Hi, I'm  Soltan <span className="wave-hand">👋</span>
       </h1>
       <p className="about_desc">
         I'm a Front-End Developer specializing in React.js & Next.js, dedicated
