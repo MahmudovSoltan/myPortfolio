@@ -34,7 +34,7 @@ const Header = ({ setShowMenu, showMenu }) => {
           </div>
           <div className="header_left">
             <Navbar />
-            <Mode />
+            {/* <Mode /> */}
           </div>
           <div className="hamburger_menu">
             <div onClick={() => setShowMenu(true)}>
