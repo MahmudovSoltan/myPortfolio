@@ -13,9 +13,11 @@
 }
 
 .wave-hand {
+  position: relative;
   display: inline-block;
   animation: wave-hand 1.5s infinite; /* Sallanma animasiyası */
   transform-origin: 70% 100%; /* Biləyin sabit qalması üçün transform mərkəzini təyin edirik */
+  z-index: -1;
 }
 
 @keyframes wave-hand {
@@ -62,4 +64,19 @@
 }
 .website_link a:hover {
   background-color: rgb(31 41 55);
+}
+@media screen and (max-width: 820px) {
+  .about_title{
+    font-size: 3rem;
+  }
+  .home_left_container{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .about_title {
+      font-size: 2rem;
+      margin: 10px 0;
+  }
 }

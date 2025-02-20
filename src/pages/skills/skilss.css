@@ -39,3 +39,14 @@
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
+
+@media screen and (max-width:575px) {
+
+    .skills_text{
+        margin-bottom: 2rem;
+        padding: 0 !important;
+    }
+    .contact_adress span{
+        margin-bottom: 0;
+    }
+ }

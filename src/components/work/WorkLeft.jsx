@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 
 const WorkLeft = ({image,link}) => {
-    console.log(image,link);
+
     
   return (
     <div className="left_main_container">

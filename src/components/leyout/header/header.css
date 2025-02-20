@@ -2,21 +2,22 @@
   padding: 1rem;
   margin-bottom: 50px;
   border-bottom: 1px solid transparent;
-  transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out,
+    border-bottom 0.3s ease-in-out;
   position: sticky;
   top: 0;
   left: 0;
   border-bottom: 1px solid transparent;
-  z-index: -999;
 }
 
-.fixed{
+.fixed {
   border-bottom: 1px solid rgb(31 41 55);
   z-index: 111;
   background-color: rgb(3 7 18 / 50%);
   backdrop-filter: blur(24px);
   scroll-behavior: smooth;
-  transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out, border-bottom 0.3s ease-in-out; 
+  transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out,
+    border-bottom 0.3s ease-in-out;
 }
 
 .header_cotainer {
@@ -36,4 +37,16 @@
   line-height: 2.25rem;
   color: rgb(249 250 251);
   font-weight: 700;
+}
+.hamburger_menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header_left {
+    display: none;
+  }
+  .hamburger_menu {
+    display: block;
+  }
 }

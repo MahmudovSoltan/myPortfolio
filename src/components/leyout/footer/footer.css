@@ -4,3 +4,11 @@ footer{
     text-align: center;
     color: rgb(249 250 251);
 }
+
+
+
+@media screen and (max-width:575px) {
+   footer{
+    font-size: .875rem;
+   }
+ }

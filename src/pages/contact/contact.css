@@ -26,3 +26,23 @@
 align-items: center;
 justify-content: center;
 }
+
+
+ @media screen and (max-width:820px) {
+    .contact_adress span{
+        font-size: 2rem;
+    }
+ }
+
+ @media screen and (max-width:575px) {
+    .contact_adress span{
+        font-size: 1rem;
+    }
+    .contact_adress span svg{
+        width: 30px;
+    }
+    .skills_text{
+        margin-bottom: 2rem;
+        padding: 0;
+    }
+ }
