@@ -1,6 +1,17 @@
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const AboutRight = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      once: false,
+    });
+  }, []);
   return (
-    <div className="about_right_container">
+      
+    <div className="about_right_container" data-aos="fade-left">
       <h2 className="about_right_title">Curious about me? Here you have it:</h2>
       <p>
         I'm a passionate Front-End Developer specializing in React.js & Next.js.

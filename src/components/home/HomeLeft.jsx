@@ -4,9 +4,19 @@ import { FiGithub } from "react-icons/fi";
 import { SiNetlify } from "react-icons/si";
 import { RiVercelLine } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+// import "./home.css";
+import { useEffect } from "react";
 const HomeLeft = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      once: true, 
+    });
+  }, []);
   return (
-    <div className="home_left_container">
+    <div className="home_left_container" data-aos="fade-right">
       <h1 className="about_title">
         Hi, I'm  Soltan <span className="wave-hand">👋</span>
       </h1>

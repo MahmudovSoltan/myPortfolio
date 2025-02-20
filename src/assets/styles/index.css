@@ -11,6 +11,7 @@ body {
   margin: 0 auto;
   background-color: rgb(4 7 17);
   font-family: "Inter", serif;
+  overflow-X: hidden;
 }
 .container {
   max-width: 90%;

@@ -10,6 +10,7 @@ const About = () => {
           <h2 >About me</h2>
         </div>
         <div className="about_sections">
+          
           <AboutLeft />
           <AboutRight />
         </div>
