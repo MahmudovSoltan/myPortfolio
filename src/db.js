@@ -3,11 +3,19 @@
   import image3 from './assets/images/health.png'
   import image4 from './assets/images/consultan.png'
   import image5 from './assets/images/Screenshot 2025-02-16 044445.png'
+  import image6 from './assets/images/Screenshot 2025-06-10 144157.png'
   
   
   
   
  export const data = [
+    {
+        "name":"goldenvitpharma",
+        "description":"GoldenVit Pharma – This project was developed to allow users to browse and order pharmaceutical products online. The website features a responsive design and provides a smooth user experience. A product catalog, search functionality, and ordering system have been successfully integrated.",
+        "image":image6,
+        "tecnolgy":["React","React-router-dom","Redux-Toolkit","Responsive,'Swiper'"],
+        "link":"https://goldenvitpharma.com/"
+    },
     {
         "name":"E-Commers Website",
         "description":"This project demonstrates my ability to work with APIs and create dynamic, data-driven web applications. Built using React, it fetches and displays data from an external API, showcasing my skills in handling asynchronous operations, state management, and responsive design.",
