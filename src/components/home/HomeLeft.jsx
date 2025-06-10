@@ -9,14 +9,14 @@ import AOS from 'aos';
 // import "./home.css";
 import { useEffect } from "react";
 const HomeLeft = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 500,
-      once: true, 
-    });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 500,
+  //     once: true, 
+  //   });
+  // }, []);
   return (
-    <div className="home_left_container" data-aos="fade-right">
+    <div className="home_left_container" >
       <h1 className="about_title">
         Hi, I'm  Soltan <span className="wave-hand">👋</span>
       </h1>

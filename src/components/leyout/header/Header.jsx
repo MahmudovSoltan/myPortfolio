@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
-import Mode from "../../mode/Mode";
+
 import Navbar from "../../navbar/Navbar";
 import "./header.css";
 import { IoIosMenu } from "react-icons/io";

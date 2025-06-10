@@ -3,12 +3,12 @@ import './homeright.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const HomeRigt = () => {
-  AOS.init({
-    duration: 1500,
-    once: true, 
-  });
+  // AOS.init({
+  //   duration: 1500,
+  //   once: true, 
+  // });
   return (
-    <div className='home_right_image' data-aos="fade-left">
+    <div className='home_right_image' >
         <img src={logo} alt="" />
     </div>
   )

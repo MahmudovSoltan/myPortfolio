@@ -1,5 +1,7 @@
 .home_left_container{
   max-width: 65%;
+   padding: 1rem; /* əlavə et */
+  margin: 0 auto;
 }
 
 
@@ -17,7 +19,6 @@
   display: inline-block;
   animation: wave-hand 1.5s infinite; /* Sallanma animasiyası */
   transform-origin: 70% 100%; /* Biləyin sabit qalması üçün transform mərkəzini təyin edirik */
-  z-index: -1;
 }
 
 @keyframes wave-hand {
@@ -71,6 +72,7 @@
   }
   .home_left_container{
     max-width: 100%;
+        padding: 1rem;
   }
 }
 
