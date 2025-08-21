@@ -16,13 +16,13 @@
         "tecnolgy":["React","React-router-dom","Redux-Toolkit","Responsive,'Swiper'"],
         "link":"https://goldenvitpharma.com/"
     },
-    {
-        "name":"E-Commers Website",
-        "description":"This project demonstrates my ability to work with APIs and create dynamic, data-driven web applications. Built using React, it fetches and displays data from an external API, showcasing my skills in handling asynchronous operations, state management, and responsive design.",
-        "image":image5,
-        "tecnolgy":["React","React-router-dom","React Bootstrap","Redux-Toolkit","RTK Query","Responsive"],
-        "link":"https://react-api-gold-two.vercel.app/"
-    },
+    // {
+    //     "name":"E-Commers Website",
+    //     "description":"This project demonstrates my ability to work with APIs and create dynamic, data-driven web applications. Built using React, it fetches and displays data from an external API, showcasing my skills in handling asynchronous operations, state management, and responsive design.",
+    //     "image":image5,
+    //     "tecnolgy":["React","React-router-dom","React Bootstrap","Redux-Toolkit","RTK Query","Responsive"],
+    //     "link":"https://react-api-gold-two.vercel.app/"
+    // },
     {
         "name":"Helath-coaching",
         "description":"This project is a fully responsive and user-friendly website designed for a health coaching service. It provides visitors with essential information about health coaching programs, nutrition tips, and wellness strategies. The website features a clean and modern design, easy navigation, and interactive elements to engage users.",
