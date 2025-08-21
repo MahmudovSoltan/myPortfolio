@@ -1,6 +1,7 @@
-.home_left_container{
+.home_left_container {
   max-width: 65%;
-   padding: 1rem; /* əlavə et */
+  padding: 1rem;
+  /* əlavə et */
   margin: 0 auto;
 }
 
@@ -9,7 +10,7 @@
 .about_title {
   font-size: 3.75rem;
   font-weight: bold;
-  color: rgb(249 250 251);
+  color: rgb(var(--app-gray-900));
   display: inline-block;
   margin: 0 0 20px;
 }
@@ -17,68 +18,83 @@
 .wave-hand {
   position: relative;
   display: inline-block;
-  animation: wave-hand 1.5s infinite; /* Sallanma animasiyası */
-  transform-origin: 70% 100%; /* Biləyin sabit qalması üçün transform mərkəzini təyin edirik */
+  animation: wave-hand 1.5s infinite;
+  transform-origin: 70% 100%;
 }
 
 @keyframes wave-hand {
-  0%, 100% {
-    transform: rotate(0deg); /* Başlanğıc və bitiş vəziyyəti */
+
+  0%,
+  100% {
+    transform: rotate(0deg);
   }
+
   25% {
-    transform: rotate(-20deg); /* Sola əyilmə */
+    transform: rotate(-20deg);
+    /* Sola əyilmə */
   }
+
   50% {
-    transform: rotate(0deg); /* Orta vəziyyət */
+    transform: rotate(0deg);
+    /* Orta vəziyyət */
   }
+
   75% {
-    transform: rotate(-20deg); /* Yenidən sola əyilmə */
+    transform: rotate(-20deg);
+    /* Yenidən sola əyilmə */
   }
 }
+
 .about_desc {
-  color: rgb(249 250 251);
+  color: rgb(var(--app-gray-900));
   line-height: 1.5rem;
   font-size: 18px;
 }
+
 .adress {
   display: flex;
   align-items: center;
   gap: 5px;
-  color: rgb(249 250 251);
+  color: rgb(var(--app-gray-900));
   font-size: 18px;
   margin-bottom: 20px;
 }
+
 .websites_link {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 .website_link a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(249 250 251);
+  color: rgb(var(--app-gray-900));
   font-size: 24px;
   padding: 0.375rem;
   border-radius: 0.5rem;
   transition: all 0.3s ease-in-out;
 }
+
 .website_link a:hover {
-  background-color: rgb(31 41 55);
+  background-color: rgb(var(--app-gray-100));
 }
+
 @media screen and (max-width: 820px) {
-  .about_title{
+  .about_title {
     font-size: 3rem;
   }
-  .home_left_container{
+
+  .home_left_container {
     max-width: 100%;
-        padding: 1rem;
+    padding: 1rem;
   }
 }
 
 @media screen and (max-width: 575px) {
   .about_title {
-      font-size: 2rem;
-      margin: 10px 0;
+    font-size: 2rem;
+    margin: 10px 0;
   }
 }

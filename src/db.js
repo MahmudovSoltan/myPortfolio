@@ -36,22 +36,26 @@
         "image":image4,
         "tecnolgy":["Html","Css","React","React-router-dom","Redux-Toolkit","Swiper"],
         "link":"https://consaltink.netlify.app/"
-    },
-    {
-        "name":"Software Village",
-        "description":"   This project was developed for Software Village to help students learn Frontend, Backend, Mobile Development, and Design. The course provides hands-on experience with modern technologies, real-world projects, and interactive lessons, preparing students for the industry.",
-        "image":image1,
-        "tecnolgy":["Html","Css","React","React-router-dom"],
-        "link":"https://ilklayihe.netlify.app/"
-    },
-    {
-        "name":"Rock-Paper-Scissors!",
-        "description":"This project is a digital version of the classic Rock-Paper-Scissors game, designed to provide a fun and interactive experience for users. It allows players to challenge the computer in a game of strategy and luck, with instant results and a score tracker to keep the competition exciting",
-        "image":image2,
-        "tecnolgy":["Html","Css","Javascript"],
-        "link":"https://homwork-game.netlify.app/"
-    },
+    }
+    
+    
+    // ,
+    // {
+    //     "name":"Software Village",
+    //     "description":"   This project was developed for Software Village to help students learn Frontend, Backend, Mobile Development, and Design. The course provides hands-on experience with modern technologies, real-world projects, and interactive lessons, preparing students for the industry.",
+    //     "image":image1,
+    //     "tecnolgy":["Html","Css","React","React-router-dom"],
+    //     "link":"https://ilklayihe.netlify.app/"
+    // },
+    // {
+    //     "name":"Rock-Paper-Scissors!",
+    //     "description":"This project is a digital version of the classic Rock-Paper-Scissors game, designed to provide a fun and interactive experience for users. It allows players to challenge the computer in a game of strategy and luck, with instant results and a score tracker to keep the competition exciting",
+    //     "image":image2,
+    //     "tecnolgy":["Html","Css","Javascript"],
+    //     "link":"https://homwork-game.netlify.app/"
+    // },
   
     
    
 ]
+

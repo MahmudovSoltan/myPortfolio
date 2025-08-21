@@ -5,8 +5,9 @@ import Navbar from "../../navbar/Navbar";
 import "./header.css";
 import { IoIosMenu } from "react-icons/io";
 import ResponsiveNavbar from "../../navbar/ResponsiveNavbar";
+import Mode from "../../mode/Mode";
 
-const Header = ({ setShowMenu, showMenu }) => {
+const Header = ({ setShowMenu, showMenu, setDark }) => {
   const [isFixed, setIsFixed] = useState(false);
 
   useEffect(() => {
@@ -34,7 +35,7 @@ const Header = ({ setShowMenu, showMenu }) => {
           </div>
           <div className="header_left">
             <Navbar />
-            {/* <Mode /> */}
+            <Mode  setDark={setDark} />
           </div>
           <div className="hamburger_menu">
             <div onClick={() => setShowMenu(true)}>

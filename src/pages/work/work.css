@@ -12,7 +12,7 @@
 .left_main_container {
   width: 50%;
   height: 455px;
-  background-color: rgb(55 65 81);
+  background-color: rgb(var(--app-gray-200));
   padding: 3rem;
   border-top-left-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
@@ -35,17 +35,17 @@
   padding: 3rem;
   border-top-right-radius: 0.75rem;
   border-bottom-right-radius: 0.75rem;
-  background-color: #222936;
+  background-color: rgb(var(--app-gray-50));
 }
 .project_title {
   font-size: 1.25rem;
   line-height: 1.75rem;
-  color: rgb(249 250 251);
+  color: rgb(var(--app-gray-900));
 }
 .project_desc {
   font-size: 1rem;
   line-height: 1.5rem;
-  color: rgb(249 250 251);
+  color: rgb(var(--app-gray-900));
 }
 .project_tecnologys {
   display: flex;
@@ -59,9 +59,9 @@
   padding-bottom: 0.3rem;
   padding-left: 1.3rem;
   padding-right: 1.3rem;
-  background-color: rgb(55 65 81);
+  background-color: rgb(var(--app-gray-200));
   border-radius: 0.75rem;
-  color: rgb(249 250 251);
+  color: rgb(var(--app-gray-900));
 }
 @media screen and (max-width: 1024px) {
   .project_desc{

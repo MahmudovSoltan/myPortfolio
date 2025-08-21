@@ -11,9 +11,9 @@
 }
 
 .fixed {
-  border-bottom: 1px solid rgb(31 41 55);
+  border-bottom: 1px solid rgb(var(--app-gray-100));
   z-index: 111;
-  background-color: rgb(3 7 18 / 50%);
+  background-color: rgb(var(--app-gray-default) / 50%);
   backdrop-filter: blur(24px);
   scroll-behavior: smooth;
   transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out,
@@ -35,7 +35,7 @@
 .header_logo {
   font-size: 1.875rem;
   line-height: 2.25rem;
-  color: rgb(249 250 251);
+  color: rgb(var(--app-gray-900));
   font-weight: 700;
 }
 .hamburger_menu {

@@ -17,10 +17,10 @@ const Contact = () => {
         What’s next? Feel free to reach out to me if you are looking for a developer, have a query, or simply want to connect.
         </p>
         <div className='contact_adress'>
-       <span><MdOutlineMail  size={50}   color='rgb(249 250 251)' /></span> <span>mahmudovsoltan05@gamil.com</span>
+       <span><MdOutlineMail  size={50}   color='rgb(var(--app-gray-900))' /></span> <span>mahmudovsoltan05@gamil.com</span>
         </div>
         <div className='contact_adress'>
-       <span><LuPhone  size={50}   color='rgb(249 250 251)' /></span> <span>+994506678653</span>
+       <span><LuPhone  size={50}   color='rgb(var(--app-gray-900))' /></span> <span>+994506678653</span>
         </div>
         <p className='other_adress'>You may also find me on these platforms!</p>
            <div className='websites_link flex'>
