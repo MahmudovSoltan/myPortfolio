@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import PropTypes from "prop-types";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -15,7 +16,7 @@ const ExperiensCard = ({ experience }) => {
       <div className="work_name">
         <img width={120} src={experience.logo} alt={experience.role} />
       </div>
-      <div className="work_description" style={{width:"60%"}}>
+      <div className="work_description">
         <h3 className="role_title">{experience.role}</h3>
         <div className="work_desc">{experience.description}</div>
       </div>
@@ -25,6 +26,15 @@ const ExperiensCard = ({ experience }) => {
       </div>
     </div>
   );
+};
+ExperiensCard.propTypes = {
+  experience: PropTypes.shape({
+    logo: PropTypes.string.isRequired,
+    role: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    start: PropTypes.string.isRequired,
+    end: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default ExperiensCard;

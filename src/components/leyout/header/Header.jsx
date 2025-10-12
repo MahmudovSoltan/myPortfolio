@@ -54,4 +54,5 @@ export default Header;
 Header.propTypes = {
   setShowMenu: PropTypes.func.isRequired,
   showMenu: PropTypes.bool.isRequired,
+  setDark: PropTypes.func.isRequired,
 };

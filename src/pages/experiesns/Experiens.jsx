@@ -6,9 +6,9 @@ export const experiences = [
     logo: "https://api.siesco.az/imgs/setting/cef86a68-6128-47b5-822f-aabc03d5c263.png",
     role: "Frontend Developer",
     description:
-      "Veb layihələrin hazırlanması, CRM sistemlərinin qurulması və idarəetmə panellərinin inkişaf etdirilməsi",
+      "Preparing web projects, setting up CRM systems and developing control panels",
     start: "July 2025",
-    end: "Present",
+    end: "September 2025",
   },
   {
     id: 1,
@@ -30,7 +30,7 @@ const Experiens = () => {
           <p className="skills_text">
             Here is a quick summary of my most recent experiences:
           </p>
-          {experiences?.map((item, i) => (
+          {experiences?.map((item) => (
             <ExperiensCard experience={item} key={item.id} />
           ))}
         </div>

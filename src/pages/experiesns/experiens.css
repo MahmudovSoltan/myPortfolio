@@ -1,34 +1,40 @@
 .main_experiens_div {
-    background-color: rgba(var(--app-gray-50));
-    padding: 50px 30px;
-  }
+  background-color: rgba(var(--app-gray-50));
+  padding: 50px 30px;
+}
+.main_card {
+  width: 80%;
+  --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  background-color: rgba(var(--app-gray-100));
+  margin: 20px auto;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(var(--app-gray-900));
+}
+.role_title {
+  margin: 0 0 20px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.work_desc {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.work_description {
+  width: 60%;
+}
+@media screen and (max-width: 820px) {
   .main_card {
-    width: 80%;
-    --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-    background-color: rgba(var(--app-gray-100));
-    margin: 20px auto;
-    padding: 2rem;
-    border-radius: 0.75rem;
-    display: flex;
-    justify-content: space-between;
-    color: rgb(var(--app-gray-900));
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
   }
-  .role_title {
-    margin: 0 0 20px;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+  .work_description {
+    width: 100%;
   }
-  .work_desc {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-  @media screen and (max-width: 820px) {
-    .main_card{
-      width: 100%;
-      flex-direction: column;
-      gap: 15px;
-    }
-  }
+}
