@@ -35,7 +35,7 @@
         "description":"This project is a professional and responsive website designed for a consulting service. It provides visitors with comprehensive information about consulting services, client success stories, and contact details. The website features a modern and clean design, easy navigation, and interactive elements to engage users.",
         "image":image4,
         "tecnolgy":["Html","Css","React","React-router-dom","Redux-Toolkit","Swiper"],
-        "link":"https://consaltink.netlify.app/"
+        "link":"https://consalting.netlify.app/"
     }
     
     
